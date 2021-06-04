@@ -38,3 +38,10 @@ resource "aws_internet_gateway" "gw" {
 }
 ```
 where "gw" is the name, "aws_internet_gateway" is the type of resource and the vpc_id is found by accessing the defined vpc
+* Step 4 Create a custom route table
+* Step 5 Create a subnet
+* Step 6 Associate subnet to route table
+* Step 7 Create security group
+* Step 8 Create a network interface and add security groups
+* Step 9 Assign a public elastic IP
+* Step 10 Create an Ubuntu instance and install Apache 
